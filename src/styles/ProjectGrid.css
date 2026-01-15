@@ -1,0 +1,61 @@
+.project-grid-container {
+  flex: 1;
+  padding: 2rem 1.5rem;
+  width: 100%;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  min-height: 100vh;
+  position: relative;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.4rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+
+.load-more-trigger {
+  height: 20px;
+  margin-top: 2rem;
+}
+
+/* Tablet: 2 columns */
+@media (min-width: 768px) {
+  .project-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.75rem;
+    max-width: 100%;
+  }
+}
+
+/* Desktop: Side-by-side with sidebar */
+@media (min-width: 601px) {
+  .project-grid-container {
+    margin-left: 280px;
+    padding: 3rem 2rem;
+  }
+}
+
+/* Desktop: 3 columns */
+@media (min-width: 1200px) {
+  .project-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+}
+
+/* Mobile adjustments */
+@media (max-width: 600px) {
+  .project-grid-container {
+    padding: 1.5rem 1rem;
+  }
+
+  .project-grid {
+    gap: 1.05rem;
+  }
+}
+

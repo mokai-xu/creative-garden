@@ -1,0 +1,47 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "Liberosis EP",
+      "photo": "/album222.png",
+      "description": "Liberosis is my first EP, released in 2024. It's a collection of 5 tracks that explore the themes of being free from your thoughts.",
+      "links": {
+        "spotify": "https://open.spotify.com/album/05dqmjael7LQ0LXrajDVeM?si=vmqJYkrsTImTj8CuNob1Fw",
+        "Apple Music": "https://music.apple.com/us/album/liberosis-ep/1801510092",
+        "youtube": "https://www.youtube.com/watch?v=hm1FvxJMIVg&themeRefresh=1",
+        "Album website": "http://2kaimusic.github.io/liberosis"
+      }
+    },
+    {
+      "id": 2,
+      "title": "End of Summer Rooftop Melodic House Mix",
+      "photo": "/summer_album.jpg",
+      "description": "A mix I made for the end of summer, released in 2023. It features my favorite melodic house tracks from artists like Odesza, Fred Again, Anyma, Julian Gray, and more. This mix is meant for chill rooftop summer parties.",
+      "links": {
+        "soundcloud": "https://soundcloud.com/2kaimusic/end-of-summer-rooftop-sleepdance-melodic-house-mix?si=9fe0bb0146404e05b39a494c47d8d2f7&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
+   
+      }
+    },
+    {
+        "id": 3,
+        "title": "Penguin Holiday Card Maker",
+        "photo": "/penguin-card.png",
+        "description": "Make a holiday card for your friends and family, using AI generated stickers in the style of Stardew Valley. Built with React + Konva.",
+        "links": {
+          "external": "http://penguin-card.up.railway.app",
+          "github": "https://github.com/mokai-xu/penguin-card"
+        }
+      },
+      {
+        "id": 4,
+        "title": "Penguin Vibe Mood Assessment",
+        "photo": "/penguin-vibe.png",
+        "description": "Waddle around and express yourself with emojis in this digital sanctuary, with custom lo-fi beats I made. Based on your emojis, the website will give you a mood assessment.",
+        "links": {
+          "external": "http://penguin-vibe.onrender.com",
+          "github": "https://github.com/mokai-xu/penguin-vibe"
+        }
+      }
+  ]
+}
+
