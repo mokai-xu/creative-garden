@@ -1,6 +1,17 @@
 {
   "projects": [
     {
+      "id": 5,
+      "title": "Efflorescence Single",
+      "photo": "/eff.png",
+      "description": "Efflorescence is a representation of growth during a turbulent time",
+      "links": {
+        "spotify": "https://open.spotify.com/track/4bJCnFbExcdIN5opKSbTHk",
+        "Apple Music": "https://music.apple.com/us/song/efflorescence/1870328631",
+        "youtube": "https://www.youtube.com/watch?v=LuBTUu1-_0M",
+      }
+    },
+    {
       "id": 1,
       "title": "Liberosis EP",
       "photo": "/album222.png",
