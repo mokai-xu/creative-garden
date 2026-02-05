@@ -52,6 +52,16 @@
           "external": "http://penguin-vibe.onrender.com",
           "github": "https://github.com/mokai-xu/penguin-vibe"
         }
+      },
+      {
+        "id": 6,
+        "title": "Birthday Puzzle Hunt",
+        "photo": "/hunt.png",
+        "description": "Test your puzzle hunt skills in this personalized birthday puzzle hunt I made for my birthday. Good luck!",
+        "links": {
+          "external": "https://drive.google.com/file/d/1ployuYaJJirJJA_jzIDt528qWjyhMNa7/view?usp=sharing",
+
+        }
       }
   ]
 }
