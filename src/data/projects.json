@@ -1,0 +1,58 @@
+[
+  {
+    "title": "Efflorescence Single",
+    "description": "Efflorescence is defined as the action or process of developing and unfolding as if coming into flower. The track symbolizes the rapid growth that comes after an adversity-driven paradigm shift. Progressive House.",
+    "image": "eff.png",
+    "links": {
+      "spotify": "https://open.spotify.com/track/4bJCnFbExcdIN5opKSbTHk?si=9885b2a1e8564378",
+      "youtube": "https://www.youtube.com/watch?v=LuBTUu1-_0M",
+      "appleMusic": "https://music.apple.com/us/album/efflorescence/1870328630?i=1870328631"
+
+    }
+  },
+  {
+    "title": "Liberosis EP",
+    "description": "Liberosis is my first EP, released in 2024. It's a collection of 5 tracks that explore the themes of being free from your thoughts.",
+    "image": "album222.png",
+    "links": {
+      "spotify": "https://open.spotify.com/album/05dqmjael7LQ0LXrajDVeM?si=vmqJYkrsTImTj8CuNob1Fw",
+      "youtube": "https://www.youtube.com/watch?v=hm1FvxJMIVg&themeRefresh=1",
+      "appleMusic": "https://music.apple.com/us/album/liberosis-ep/1801510092",
+      "external": "http://2kaimusic.github.io/liberosis"
+    }
+  },
+  {
+    "title": "End of Summer Rooftop Melodic House Mix",
+    "description": "A mix I made for the end of summer, released in 2023. It features my favorite melodic house tracks from artists like Odesza, Fred Again, Anyma, Julian Gray, and more. This mix is meant for chill rooftop summer parties.",
+    "image": "summer_album.jpg",
+    "links": {
+      "Soundcloud": "https://soundcloud.com/2kaimusic/end-of-summer-rooftop-sleepdance-melodic-house-mix?si=9fe0bb0146404e05b39a494c47d8d2f7&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
+    }
+  },
+  {
+    "title": "Penguin Holiday Card Maker",
+    "description": "Make a holiday card for your friends and family, using AI generated stickers in the style of Stardew Valley. Built with React + Konva.",
+    "image": "penguin-card.png",
+    "links": {
+      "external": "http://penguin-card.up.railway.app/",
+      "Github": "https://github.com/mokai-xu/penguin-card"
+    }
+  },
+  {
+    "title": "Penguin Vibe Mood Assessment",
+    "description": "Waddle around and express yourself with emojis in this digital sanctuary, with custom lo-fi beats I made. Based on your emojis, the website will give you a mood assessment.",
+    "image": "penguin-vibe.png",
+    "links": {
+      "external": "http://penguin-vibe.onrender.com/",
+      "Github": "https://github.com/mokai-xu/penguin-vibe"
+    }
+  },
+  {
+    "title": "Birthday Puzzle Hunt",
+    "description": "I made this puzzle hunt for my birthday -- the puzzle hunt features some of my favorite puzzles and themes. From ciphers to logic puzzles, the more you know about me the more intuitive it will be. Good luck!",
+    "image": "hunt.png",
+    "links": {
+      "external": "https://drive.google.com/file/d/1ployuYaJJirJJA_jzIDt528qWjyhMNa7/view?usp=sharing"
+    }
+  }
+]
