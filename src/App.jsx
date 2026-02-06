@@ -4,7 +4,7 @@ import projects from './data/projects.json'
 const BASE = import.meta.env.BASE_URL
 
 const LINK_LABELS = {
-  external: 'Link',
+  external: 'Visit Site',
   spotify: 'Spotify',
   youtube: 'YouTube',
   appleMusic: 'Apple Music',
@@ -12,7 +12,7 @@ const LINK_LABELS = {
 
 function App() {
   useEffect(() => {
-    document.body.style.backgroundImage = `url(${BASE}background.jpg)`
+    document.body.style.backgroundImage = `url(${BASE}pexel.jpg)`
   }, [])
 
   return (

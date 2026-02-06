@@ -42,7 +42,7 @@ body {
 
 /* Sidebar */
 .sidebar {
-  background-color: #ffffffd9;
+  background-color: #ffffffcc; /* 80% opacity */
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   padding: 2rem 1.5rem;
