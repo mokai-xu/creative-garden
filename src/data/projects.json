@@ -1,17 +1,29 @@
 [
   {
+    "title": "Beyond the Clouds Single",
+    "tag": "Music project",
+    "description": "Beyond the Clouds is about looking past the horizon toward what we can't yet see. The track drifts between mystery and calm, an invitation to wander somewhere above the noise and find a quiet kind of peace waiting there.",
+    "image": "beyond.png",
+    "links": {
+      "spotify": "https://open.spotify.com/album/1NwQVHmE5Vqnvq2Ffwkfbe",
+      "youtube": "https://music.youtube.com/watch?v=Yp5JKr_r4VA&list=OLAK5uy_m7nVJwBosxkCAvIEkRKcbsV8nnlu2NCAs",
+      "appleMusic": "https://music.apple.com/us/album/beyond-the-clouds-single/1870507180"
+    }
+  },
+  {
     "title": "Efflorescence Single",
+    "tag": "Music project",
     "description": "Efflorescence is defined as the action or process of developing and unfolding as if coming into flower. The track symbolizes the rapid growth that comes after an adversity-driven paradigm shift. Progressive House.",
     "image": "eff.png",
     "links": {
       "spotify": "https://open.spotify.com/track/4bJCnFbExcdIN5opKSbTHk?si=9885b2a1e8564378",
       "youtube": "https://www.youtube.com/watch?v=LuBTUu1-_0M",
       "appleMusic": "https://music.apple.com/us/album/efflorescence/1870328630?i=1870328631"
-
     }
   },
   {
     "title": "Liberosis EP",
+    "tag": "Music project",
     "description": "Liberosis is my first EP, released in 2024. It's a collection of 5 tracks that explore the themes of being free from your thoughts.",
     "image": "album222.png",
     "links": {
@@ -23,6 +35,7 @@
   },
   {
     "title": "End of Summer Rooftop Melodic House Mix",
+    "tag": "Music project",
     "description": "A mix I made for the end of summer, released in 2023. It features my favorite melodic house tracks from artists like Odesza, Fred Again, Anyma, Julian Gray, and more. This mix is meant for chill rooftop summer parties.",
     "image": "summer_album.jpg",
     "links": {
@@ -31,6 +44,7 @@
   },
   {
     "title": "Penguin Holiday Card Maker",
+    "tag": "Vibe coding",
     "description": "Make a holiday card for your friends and family, using AI generated stickers in the style of Stardew Valley. Built with React + Konva.",
     "image": "penguin-card.png",
     "links": {
@@ -40,6 +54,7 @@
   },
   {
     "title": "Penguin Vibe Mood Assessment",
+    "tag": "Vibe coding",
     "description": "Waddle around and express yourself with emojis in this digital sanctuary, with custom lo-fi beats I made. Based on your emojis, the website will give you a mood assessment.",
     "image": "penguin-vibe.png",
     "links": {

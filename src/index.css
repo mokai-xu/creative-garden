@@ -22,6 +22,19 @@ body {
   overflow-x: hidden;
 }
 
+/* Background photo on its own layer so it can be desaturated without affecting content */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  background-image: var(--bg-image);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: saturate(0.5);
+}
+
 .app {
   display: flex;
   min-height: 100vh;
@@ -181,6 +194,28 @@ body {
 .project-card:hover {
   box-shadow: 0 4px 12px #0000001f;
   transform: translateY(-2px);
+}
+
+.project-tag {
+  align-self: flex-start;
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 0.65rem;
+  letter-spacing: 0.3px;
+  padding: 0.15rem 0.55rem;
+  border-radius: 999px;
+  margin-bottom: 0.6rem;
+  background-color: #f0f0f0;
+  color: #555;
+}
+
+.tag-music-project {
+  background-color: #ede7f6;
+  color: #5b3f8c;
+}
+
+.tag-vibe-coding {
+  background-color: #e3f2ea;
+  color: #2f6b4a;
 }
 
 .project-title {

@@ -12,7 +12,7 @@ const LINK_LABELS = {
 
 function App() {
   useEffect(() => {
-    document.body.style.backgroundImage = `url(${BASE}pexel.jpg)`
+    document.body.style.setProperty('--bg-image', `url(${BASE}pexel.jpg)`)
   }, [])
 
   return (
@@ -31,11 +31,11 @@ function App() {
             </p>
           </div>
           <nav className="social-links">
-            <a className="social-link" href="https://github.com/mokai-xu" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a className="social-link" href={`${BASE}resume.pdf`} target="_blank" rel="noopener noreferrer">Resume</a>
             <a className="social-link" href="https://linkedin.com/in/xumonica" target="_blank" rel="noopener noreferrer">Linkedin</a>
             <a className="social-link" href="https://open.spotify.com/artist/4wQ4CoGKeE4SVL4lGlV3Eh" target="_blank" rel="noopener noreferrer">Spotify</a>
             <a className="social-link" href="https://soundcloud.com/2kaimusic" target="_blank" rel="noopener noreferrer">Soundcloud</a>
-            <a className="social-link" href="https://drive.google.com/file/d/1zmUhYzDf50aOox00NQsJ_oMnxpS8aWb1/view?usp=sharing" target="_blank" rel="noopener noreferrer">Resume</a>
+            <a className="social-link" href="https://github.com/mokai-xu" target="_blank" rel="noopener noreferrer">GitHub</a>
             <a className="social-link" href="https://substack.com/@monicaxu" target="_blank" rel="noopener noreferrer">Substack</a>
 
           </nav>
@@ -45,6 +45,11 @@ function App() {
         <div className="project-grid">
           {projects.map((project, i) => (
             <article key={i} className="project-card">
+              {project.tag && (
+                <span className={`project-tag tag-${project.tag.toLowerCase().replace(/\s+/g, '-')}`}>
+                  {project.tag}
+                </span>
+              )}
               <h2 className="project-title">{project.title}</h2>
               <div className="project-image-container">
                 <img
